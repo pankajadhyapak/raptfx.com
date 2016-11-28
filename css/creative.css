@@ -147,20 +147,20 @@ aside {
   }
 }
 header {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  width: 80%;
   min-height: auto;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  -moz-background-size: auto;
+  background-size: auto;
+  -o-background-size: auto;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  
   text-align: center;
   color: white;
 }
 header .header-content {
-  position: relative;
+  position: absolute;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
